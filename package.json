@@ -6,9 +6,6 @@
   "bin": {
     "autocannon": "autocannon.js"
   },
-  "engines": {
-    "node": "^18.20.8"
-  },
   "scripts": {
     "test": "standard && tap test/serial/*.test.js test/*.test.js",
     "standard:fix": "standard --fix"
